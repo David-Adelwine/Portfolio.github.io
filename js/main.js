@@ -12,6 +12,7 @@ setTimeout( function() {
 
 
 
+
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", navToggle);
 
@@ -33,3 +34,5 @@ AOS.init({
   offset:400,
   duration:1000
 });
+
+document.getElementById("my-Form").reset();
